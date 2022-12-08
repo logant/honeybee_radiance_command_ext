@@ -14,6 +14,6 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url='https://github.com/logant/honeybee_radiance_command_ext',
     license='AGPL-3.0',
-    packages=['honeybee_radiance_command_ext'],
+    packages=setuptools.find_packages(exclude=["tests*"]),
     install_requires=['honeybee_radiance'],
 )
