@@ -1,7 +1,7 @@
 """xform Command."""
 import os.path
 
-from .options.xform import XformOptions
+from honeybee_radiance_command_ext.options.xform import XformOptions
 from honeybee_radiance_command._command import Command
 import warnings
 import honeybee_radiance_command._typing as typing

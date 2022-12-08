@@ -1,7 +1,7 @@
 """ies2rad Command."""
 import os.path
 
-from .options.ies2rad import Ies2radOptions
+from honeybee_radiance_command_ext.options.ies2rad import Ies2radOptions
 from honeybee_radiance_command._command import Command
 import warnings
 import honeybee_radiance_command._typing as typing
